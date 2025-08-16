@@ -1,6 +1,6 @@
 <script>
     const routes = {
-      shipment: '/shipment',
+      shipment: '/manage',
       tracking: '/track',
       input: '/input'
     }
@@ -34,7 +34,7 @@
 
     <a href={routes.shipment} class="block bg-card-bg p-8 rounded-2xl shadow-md hover:shadow-lg transition no-underline">
       <h2 class="text-2xl font-TikTok mb-2">Port Management</h2>
-      <p class="font-TikTok text-lg">
+      <p class="font-TikTok text-lg"> 
         Manage terminal schedules, monitor storage capacity, and optimize port operations.
       </p>
     </a>

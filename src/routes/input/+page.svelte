@@ -11,37 +11,37 @@
   <form class="bg-card-bg p-8 rounded-2xl shadow-md space-y-6">
     
     <div>
-      <label class="block mb-2 font-TikTok text-font-color2">Cargo Type</label>
+      <label class="block mb-2 font-TikTok">Cargo Type</label>
       <input type="text" placeholder="e.g., Electronics" class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400" required>
     </div>
 
     <div>
-      <label class="block mb-2 font-TikTok text-font-color2">Weight (kg)</label>
+      <label class="block mb-2 font-TikTok">Weight (kg)</label>
       <input type="number" step="0.01" placeholder="e.g., 1250" class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400" required>
     </div>
 
     <div>
-      <label class="block mb-2 font-TikTok text-font-color2">Dimensions (L×W×H in cm)</label>
+      <label class="block mb-2 font-TikTok">Dimensions (L×W×H in cm)</label>
       <input type="text" placeholder="e.g., 120×80×100" class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
     </div>
 
     <div>
-      <label class="block mb-2 font-TikTok text-font-color2">Ship Name</label>
+      <label class="block mb-2 font-TikTok">Ship Name</label>
       <input type="text" placeholder="e.g., Ocean Trader" class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
     </div>
 
     <div>
-      <label class="block mb-2 font-TikTok text-font-color2">Origin Port</label>
+      <label class="block mb-2 font-TikTok">Origin Port</label>
       <input type="text" placeholder="e.g., Jakarta Port" class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
     </div>
 
     <div>
-      <label class="block mb-2 font-TikTok text-font-color2">Destination Port</label>
+      <label class="block mb-2 font-TikTok">Destination Port</label>
       <input type="text" placeholder="e.g., Singapore Port" class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
     </div>
 
     <div>
-      <label class="block mb-2 font-TikTok text-font-color2">Expected Arrival Date</label>
+      <label class="block mb-2 font-TikTok">Expected Arrival Date</label>
       <input type="date" class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
     </div>
 

@@ -3,7 +3,7 @@
     { name: "Home", href: "/" },
     { name: "Input", href: "/input" },
     { name: "Tracking", href: "/track" },
-    { name: "Inventory", href: "/inventory" },
+    { name: "Manage", href: "/manage" },
   ];
 </script>
 
@@ -16,7 +16,7 @@
       <ul class="flex space-x-6">
         {#each navLinks as link}
           <li>
-            <a href={link.href} class="text-font-color font-TikTok hover:text-blue-800 transition">
+            <a href={link.href} class="text-font-color font-TikTok hover:text-card-bg transition">
               {link.name}
             </a>
           </li>
